@@ -1,7 +1,7 @@
 # Exersice1
 # for i in range(0,100):
 #     print("""We like Python's turtles!""")
-import turtle
+
 
 # Exercise2
 
