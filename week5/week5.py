@@ -1,5 +1,5 @@
 # EXERCİSE1
-import math
+# import math
 
 # import random
 # for i in range(10):
