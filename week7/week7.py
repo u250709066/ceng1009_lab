@@ -1,9 +1,9 @@
-import turtle
+# import turtle
 
 
-alex = turtle.Turtle()
-screen = turtle.Screen()
-alex.speed(0)
+# alex = turtle.Turtle()
+# screen = turtle.Screen()
+# alex.speed(0)
 
 
 # def sumTo(n):
@@ -80,47 +80,47 @@ alex.speed(0)
 
 
 
-def drawBar(t , height, gap):
-    t.penup()
-    t.left(90)
-    t.forward(height + gap)
-    t.write("" + str(height))
-    t.backward(height + gap)
-    t.right(90)
-    t.pendown()
+# def drawBar(t , height, gap):
+#     t.penup()
+#     t.left(90)
+#     t.forward(height + gap)
+#     t.write("" + str(height))
+#     t.backward(height + gap)
+#     t.right(90)
+#     t.pendown()
 
-    t.begin_fill()
-    t.left(90)
-    t.forward(height)
-    t.right(90)
-    t.forward(40)
-    t.right(90)
-    t.forward(height)
-    t.left(90)
-    t.end_fill()
+#     t.begin_fill()
+#     t.left(90)
+#     t.forward(height)
+#     t.right(90)
+#     t.forward(40)
+#     t.right(90)
+#     t.forward(height)
+#     t.left(90)
+#     t.end_fill()
 
-def barChart(data):
-    maxheight = max(data)
-    num_bars = len(data)
+# def barChart(data):
+#     maxheight = max(data)
+#     num_bars = len(data)
 
-    border = 10
-    gap = (maxheight + border) / 25
+#     border = 10
+#     gap = (maxheight + border) / 25
 
-    screen.bgcolor("lightgreen")
-    right = 40 * num_bars + border
-    top = maxheight + 4 * gap
-    screen.setworldcoordinates(-border , -border , right , top)
+#     screen.bgcolor("lightgreen")
+#     right = 40 * num_bars + border
+#     top = maxheight + 4 * gap
+#     screen.setworldcoordinates(-border , -border , right , top)
 
-    alex.color("blue")
-    alex.fillcolor("red")
-    alex.pensize(3)
+#     alex.color("blue")
+#     alex.fillcolor("red")
+#     alex.pensize(3)
 
-    for height in data:
-        drawBar(alex, height, gap)
+#     for height in data:
+#         drawBar(alex, height, gap)
 
 
-data = [48, 117, 200, 240, 160, 260, 220]
-barChart(data)
+# data = [48, 117, 200, 240, 160, 260, 220]
+# barChart(data)
 
 
 
