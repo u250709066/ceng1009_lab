@@ -1,3 +1,4 @@
+# EXERCİSE 1
 # def getGrade(mark):
 #     if mark >= 90:
 #         return "A"
@@ -14,7 +15,7 @@
 # for mark in marks:
 #       print("your grade is ", getGrade(mark))
 #
-# EXERCİSE 2
+# EXERCİSE 2-3
 # import turtle
 # screen = turtle.Screen()
 # t=turtle.Turtle()
@@ -146,7 +147,7 @@
 
 
 # EXERCİSE_4
-import math
+# import math
 # def findHypot(side1,side2):
 #     return math.sqrt(side1**2+side2**2)
 # def findHypot(side1,side2):
